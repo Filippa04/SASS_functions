@@ -1,0 +1,19 @@
+$font-size: 100px;
+
+body {
+    background-color: bisque;
+}
+
+@function h1 ($font-size) {
+    @return($font-size / 4);   
+}
+
+h1 {
+    font-size: h1($font-size);
+}
+
+@function background($)
+
+div {
+
+}
